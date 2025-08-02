@@ -1,0 +1,5 @@
+601, Kathmandu, North,3, Residential,50000,Available
+602, Pokhara, East, 5, Mixed-Use,60000,Not Available
+603, Lalitpur, South, 10, Recreational,100000, Available
+604, Dailekh, West, 6, Industrial,200000, Not Available
+605, Surkhet, South, 2, Commerical,80000, Not Available

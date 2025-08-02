@@ -1,0 +1,13 @@
+Invoice ID: TPN20250802_171729
+Techno Property Nepal
+Kalopul, Kathmandu
+Customer: nikhil
+Phone: 9844871400
+Date: 2025-08-02 17:17:29.386898
+--------------------------------------------------
+Kitta	City	Direction	Anna	Zoning	Charge	Months	Total
+601	 Kathmandu	 North	2	 Residential	50000	14	0
+601	 Kathmandu	 North	2	 Residential	50000	25	0
+--------------------------------------------------
+Grand Total: NPR 0
+Thank you for choosing us!
