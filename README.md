@@ -1,25 +1,21 @@
-
 # Land Rental System – Console Application in Python 🏡
 
-A simple command-line project that allows users to rent available land parcels based on details stored in a `.txt` file. The system updates land availability, calculates rent, and generates a bill.
+A feature-rich command-line project that allows users to rent and return available land parcels based on data stored in a `.txt` file. The system handles partial rentals, updates land availability, logs rental history, and generates uniquely timestamped billing receipts.
 
 ## 🔧 Features
 - View land availability with details (Kitta No., City, Direction, Area, Zoning, Charge, Status)
-- Rent land by area and duration
-- Prevent double renting (status updates after rent)
-- Generates a printable bill
-- Saves transaction history in a text file
+- Rent land by selecting area (Anna) and duration (in months)
+- Return rented land to make it available again
+- Prevent double renting by auto-updating availability
+- Generates uniquely named rental bills in `.txt` format
+- Saves transaction history in `rented.txt`
 
 ## 🗂 File Overview
-- `main.py`: Main logic for renting land, updating availability, and generating bills.
+- `main.py`: Main logic for renting, returning, and billing land transactions.
 - `land.txt`: Contains all available land listings.
-- `bill2.txt`: Output file (auto-generated) for rental receipt.
+- `rented.txt`: Transaction history log (auto-appended).
+- `bill_<name>_<timestamp>.txt`: Auto-generated invoice file for each transaction.
 
-## 🔧 Technologies Used
-- Python (Standard Library only)
 
-## 🚀 How to Run
-1. Clone the repo:
-```bash
-git clone https://github.com/yourusername/land-rental-system.git
-cd land-rental-system
+
+
